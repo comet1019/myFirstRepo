@@ -6,10 +6,6 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/hello',(req,res)=>{
-    res.json({title:"wow..", name:"comet", age: 10})
-})
-
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
